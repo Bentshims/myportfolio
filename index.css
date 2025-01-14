@@ -12,7 +12,7 @@ body{
 }
 .flex{
     display: flex;
-    gap: 5px;
+    gap: 15px;
     align-items: center;
 }
 header{
@@ -21,6 +21,7 @@ header{
     align-items: center;
     background-color: var(--secondary-color);
     padding: 0 20px;
+    height: 100px;
 
 }
 
