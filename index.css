@@ -1,0 +1,12 @@
+:root{
+    --primary-color :#1f1f1f;
+    --secondary-color : #3D4142;
+    --tertiary-color : #FF6347;
+    --other-color:#D4B483;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+
+}
