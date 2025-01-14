@@ -24,4 +24,12 @@ header{
     height: 100px;
 
 }
+.i-menu{
+    font-size: 38px;
+    color: var(--tertiary-color);
+
+}
+p{
+    font-size: 24px;
+}
 
