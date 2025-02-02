@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 <body>
-    <header>
+    <header class="flex-space">
         <h2>Tshims</h2>
         <div class="status-header flex">
             <i class="bi bi-record-fill"></i>
@@ -17,30 +18,37 @@
 
         </div>
         <div class="nav">
-            <div class="menu-nav flex">
-                <i class="bi bi-grid-fill i-menu"></i>
-                <!-- <p>Menu</p> -->
-
+            
+            <div>
+                <div class="menu-nav flex">
+                    <i id="menu" class="bi bi-grid-fill i-menu flex"></i>
+                    <p  class="menu-title">Menu</p>
+    
+                </div>
+                <div id="link-nav" class="link-nav flex-center">
+                    <div class="border-left">
+                
+                    </div>
+                    <ul>
+                        <li class="flex" > <i class="bi-grid-fill i-menu"></i><a target="_blank" href="home.html">Home</a></li>
+                        <li class="flex"><i class="bi-grid-fill i-menu"></i><a target="_blank" href="cv.html"> my CV</a></li>
+                        <li class="flex"><i class="bi-grid-fill i-menu"></i><a target="_blank" href="contact.html">Contact</a></li>
+                        <li class="flex"><i class="bi-grid-fill i-menu"></i><a target="_blank" href="project.html">Project</a></li>
+                    </ul>
+                </div>
             </div>
-            <!-- <div class="link-nav">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="contact.html">Conact</a></li>
-                    <li><a href="project.html">Project</a></li>
-                </ul>
-            </div> -->
+            
 
         </div>
 
     </header>
     <main>
-        <div class="imgCard">
+        <div class="imgCard git flex-center">
             <img src="dev.png" alt="photo de profil">
         </div>
         <div class="description">
             <p>Hello</p>
-            <h1>Im Ben Tshimanga a frontend web developper</h1>
+            <h1>Im Ben Tshimanga a <span class="special-word">frontend web developper</span></h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Quod minus magnam vitae reprehenderit, dolorem inventore 
@@ -58,7 +66,7 @@
         </div>
 
     </main>
-    <footer>
+    <footer class="flex-space">
         <div class="menu">
             <i class="bi bi-grid-fill i-menu"></i>
         </div>
@@ -66,17 +74,17 @@
         </div>
         <div class="social-items">
             <i class="bi bi-record-fill"></i>
-            <a href="#">linkedin</a>
+            <a href="#">Li</a>
         </div>
         <div class="social-items">
             <i class="bi bi-record-fill"></i>
-            <a href="#">Instagram</a>
+            <a href="#">In</a>
         </div>
         <div class="social-items">
             <i class="bi bi-record-fill"></i>
-            <a href="#">Twitter-x</a>
+            <a href="#">X</a>
         </div>
-        <div class="scroll">
+        <div class="scroll flex-center">
             <i class="bi bi-arrow-down"></i>
         </div>
 
